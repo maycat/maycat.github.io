@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     watch: ['_site/**/*.css'],
   });
   eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   return {
     dir: {
